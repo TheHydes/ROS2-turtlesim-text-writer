@@ -1,0 +1,26 @@
+[1.112s] Invoking command in '/home/ros_user/ros2_ws/build/ros2_course': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/ros2_course/build --no-deps install_data
+[1.559s] running develop
+[1.559s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.559s]   warnings.warn(
+[1.562s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.562s]   warnings.warn(
+[1.848s] running egg_info
+[1.848s] writing ros2_course.egg-info/PKG-INFO
+[1.848s] writing dependency_links to ros2_course.egg-info/dependency_links.txt
+[1.849s] writing entry points to ros2_course.egg-info/entry_points.txt
+[1.849s] writing requirements to ros2_course.egg-info/requires.txt
+[1.849s] writing top-level names to ros2_course.egg-info/top_level.txt
+[1.852s] reading manifest file 'ros2_course.egg-info/SOURCES.txt'
+[1.853s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[1.855s] running build_ext
+[1.856s] Creating /home/ros_user/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[1.857s] Installing chaser_turtle script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[1.857s] Installing flower_turtle script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[1.858s] Installing fractal script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[1.858s] Installing hello script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[1.858s] Installing random_turtle script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[1.858s] Installing turtle_spin script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course
+[1.859s] 
+[1.859s] Installed /home/ros_user/ros2_ws/build/ros2_course
+[1.859s] running install_data
+[1.890s] Invoked command in '/home/ros_user/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros_user/ros2_ws/build/ros2_course/build --no-deps install_data

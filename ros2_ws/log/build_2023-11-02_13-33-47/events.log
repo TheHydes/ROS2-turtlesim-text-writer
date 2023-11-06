@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (ros2_course) JobQueued: {'identifier': 'ros2_course', 'dependencies': OrderedDict()}
+[0.000134] (ros2_course) JobStarted: {'identifier': 'ros2_course'}
+[0.094627] (-) TimerEvent: {}
+[0.195369] (-) TimerEvent: {}
+[0.295938] (-) TimerEvent: {}
+[0.396408] (-) TimerEvent: {}
+[0.496657] (-) TimerEvent: {}
+[0.597466] (-) TimerEvent: {}
+[0.698078] (-) TimerEvent: {}
+[0.798245] (-) TimerEvent: {}
+[0.898636] (-) TimerEvent: {}
+[0.999208] (-) TimerEvent: {}
+[1.099759] (-) TimerEvent: {}
+[1.169465] (ros2_course) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros_user/ros2_ws/build/ros2_course/build', '--no-deps', 'install_data'], 'cwd': '/home/ros_user/ros2_ws/build/ros2_course', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LANGUAGE': 'en_GB:en', 'LC_TIME': 'hu_HU.UTF-8', 'USER': 'ros_user', 'ROS_PACKAGE_PATH': '/home/ros_user/dvrk2_ws/install/cisst/share', 'XDG_SESSION_TYPE': 'wayland', 'LD_LIBRARY_PATH': '/home/ros_user/dvrk2_ws/install/dvrk_robot/lib:/home/ros_user/dvrk2_ws/install/sawIntuitiveResearchKitAll/lib:/home/ros_user/dvrk2_ws/install/sawTextToSpeechAll/lib:/home/ros_user/dvrk2_ws/install/sawRobotIO1394All/lib:/home/ros_user/dvrk2_ws/install/sawControllersAll/lib:/home/ros_user/dvrk2_ws/install/sawKeyboardAll/lib:/home/ros_user/dvrk2_ws/install/cisst_ros2_crtk/lib:/home/ros_user/dvrk2_ws/install/crtk_msgs/lib:/home/ros_user/dvrk2_ws/install/cisst_ros2_bridge/lib:/home/ros_user/dvrk2_ws/install/cisst_msgs/lib:/home/ros_user/dvrk2_ws/install/cisst/lib:/home/ros_user/dvrk2_ws/install/cisstNetlib/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'SHLVL': '26', 'HOME': '/home/ros_user', 'DESKTOP_SESSION': 'ubuntu', 'QTDIR': '/usr/lib/x86_64-linux-gnu/qt5', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/QtProject-qtcreator-ros-latest.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'hu_HU.UTF-8', 'MANAGERPID': '1184', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SYSTEMD_EXEC_PID': '1361', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3328', 'COLCON_PREFIX_PATH': '/home/ros_user/ros2_ws/install:/home/ros_user/dvrk2_ws/install', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'ros_user', 'JOURNAL_STREAM': '8:22818', '_': '/usr/bin/env', 'PKG_CONFIG_PATH': '/home/ros_user/dvrk2_ws/install/dvrk_config_jhu/lib/x86_64-linux-gnu/pkgconfig:/home/ros_user/dvrk2_ws/install/dvrk_config_jhu/lib/pkgconfig:/home/ros_user/dvrk2_ws/install/cisst/lib/x86_64-linux-gnu/pkgconfig:/home/ros_user/dvrk2_ws/install/cisst/lib/pkgconfig:/home/ros_user/dvrk2_ws/install/cisstNetlib/lib/x86_64-linux-gnu/pkgconfig:/home/ros_user/dvrk2_ws/install/cisstNetlib/lib/pkgconfig', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'USERNAME': 'ros_user', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ros_user/dvrk2_ws/install/sawIntuitiveResearchKitAll/bin:/home/ros_user/dvrk2_ws/install/sawTextToSpeechAll/bin:/home/ros_user/dvrk2_ws/install/sawRobotIO1394All/bin:/home/ros_user/dvrk2_ws/install/sawControllersAll/bin:/home/ros_user/dvrk2_ws/install/cisst/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '2dbc977928d6432c951e2b4604bbfc50', 'PAPERSIZE': 'a4', 'SESSION_MANAGER': 'local/ubuntu-vm:@/tmp/.ICE-unix/1334,unix/ubuntu-vm:/tmp/.ICE-unix/1334', 'GNOME_SETUP_DISPLAY': ':1', 'LC_ADDRESS': 'hu_HU.UTF-8', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'LC_TELEPHONE': 'hu_HU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H90ZD2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'AMENT_PREFIX_PATH': '/home/ros_user/dvrk2_ws/install/dvrk_robot:/home/ros_user/dvrk2_ws/install/dvrk_python:/home/ros_user/dvrk2_ws/install/dvrk_model:/home/ros_user/dvrk2_ws/install/cisst_ros2_crtk:/home/ros_user/dvrk2_ws/install/crtk_msgs:/home/ros_user/dvrk2_ws/install/crtk:/home/ros_user/dvrk2_ws/install/cisst_ros2_bridge:/home/ros_user/dvrk2_ws/install/cisst_msgs:/home/ros_user/ros2_ws/install/ros2_course:/opt/ros/humble', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'LC_NAME': 'hu_HU.UTF-8', 'SHELL': '/bin/bash', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'hu_HU.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hu_HU.UTF-8', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'C', 'PWD': '/home/ros_user/ros2_ws/build/ros2_course', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'hu_HU.UTF-8', 'PYTHONPATH': '/home/ros_user/ros2_ws/build/ros2_course/prefix_override:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/home/ros_user/dvrk2_ws/build/dvrk_python/src:/home/ros_user/dvrk2_ws/install/dvrk_python/lib/python3.10/site-packages:/home/ros_user/dvrk2_ws/build/dvrk_model:/home/ros_user/dvrk2_ws/install/dvrk_model/lib/python3.10/site-packages:/home/ros_user/dvrk2_ws/install/crtk_msgs/local/lib/python3.10/dist-packages:/home/ros_user/dvrk2_ws/build/crtk/src:/home/ros_user/dvrk2_ws/install/crtk/lib/python3.10/site-packages:/home/ros_user/dvrk2_ws/install/cisst_msgs/local/lib/python3.10/dist-packages:/home/ros_user/ros2_ws/build/ros2_course:/home/ros_user/ros2_ws/install/ros2_course/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'hu_HU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros_user/dvrk2_ws/install/dvrk_robot:/home/ros_user/dvrk2_ws/install/sawIntuitiveResearchKitAll:/home/ros_user/dvrk2_ws/install/sawTextToSpeechAll:/home/ros_user/dvrk2_ws/install/sawRobotIO1394All:/home/ros_user/dvrk2_ws/install/sawControllersAll:/home/ros_user/dvrk2_ws/install/sawKeyboardAll:/home/ros_user/dvrk2_ws/install/dvrk_config_jhu:/home/ros_user/dvrk2_ws/install/cisst_ros2_crtk:/home/ros_user/dvrk2_ws/install/crtk_msgs:/home/ros_user/dvrk2_ws/install/cisst_ros2_bridge:/home/ros_user/dvrk2_ws/install/cisst_msgs:/home/ros_user/dvrk2_ws/install/cisst:/home/ros_user/dvrk2_ws/install/cisstNetlib'}, 'shell': False}
+[1.200141] (-) TimerEvent: {}
+[1.301232] (-) TimerEvent: {}
+[1.401705] (-) TimerEvent: {}
+[1.502626] (-) TimerEvent: {}
+[1.602843] (-) TimerEvent: {}
+[1.605667] (ros2_course) StdoutLine: {'line': b'running develop\n'}
+[1.606202] (ros2_course) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.606331] (ros2_course) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.608092] (ros2_course) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.608203] (ros2_course) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.703578] (-) TimerEvent: {}
+[1.803857] (-) TimerEvent: {}
+[1.887650] (ros2_course) StdoutLine: {'line': b'running egg_info\n'}
+[1.888026] (ros2_course) StdoutLine: {'line': b'writing ros2_course.egg-info/PKG-INFO\n'}
+[1.888531] (ros2_course) StdoutLine: {'line': b'writing dependency_links to ros2_course.egg-info/dependency_links.txt\n'}
+[1.888998] (ros2_course) StdoutLine: {'line': b'writing entry points to ros2_course.egg-info/entry_points.txt\n'}
+[1.889378] (ros2_course) StdoutLine: {'line': b'writing requirements to ros2_course.egg-info/requires.txt\n'}
+[1.889656] (ros2_course) StdoutLine: {'line': b'writing top-level names to ros2_course.egg-info/top_level.txt\n'}
+[1.892591] (ros2_course) StdoutLine: {'line': b"reading manifest file 'ros2_course.egg-info/SOURCES.txt'\n"}
+[1.894105] (ros2_course) StdoutLine: {'line': b"writing manifest file 'ros2_course.egg-info/SOURCES.txt'\n"}
+[1.896258] (ros2_course) StdoutLine: {'line': b'running build_ext\n'}
+[1.896709] (ros2_course) StdoutLine: {'line': b'Creating /home/ros_user/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)\n'}
+[1.898108] (ros2_course) StdoutLine: {'line': b'Installing chaser_turtle script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.898369] (ros2_course) StdoutLine: {'line': b'Installing flower_turtle script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.898602] (ros2_course) StdoutLine: {'line': b'Installing fractal script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.898829] (ros2_course) StdoutLine: {'line': b'Installing hello script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.899079] (ros2_course) StdoutLine: {'line': b'Installing hunter_turtle script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.899307] (ros2_course) StdoutLine: {'line': b'Installing my_robot_messages script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.899521] (ros2_course) StdoutLine: {'line': b'Installing random_turtle script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.899744] (ros2_course) StdoutLine: {'line': b'Installing turtle_spawner script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.900014] (ros2_course) StdoutLine: {'line': b'Installing turtle_spin script to /home/ros_user/ros2_ws/install/ros2_course/lib/ros2_course\n'}
+[1.900332] (ros2_course) StdoutLine: {'line': b'\n'}
+[1.900452] (ros2_course) StdoutLine: {'line': b'Installed /home/ros_user/ros2_ws/build/ros2_course\n'}
+[1.900722] (ros2_course) StdoutLine: {'line': b'running install_data\n'}
+[1.904427] (-) TimerEvent: {}
+[1.933475] (ros2_course) CommandEnded: {'returncode': 0}
+[1.957719] (ros2_course) JobEnded: {'identifier': 'ros2_course', 'rc': 0}
+[1.961684] (-) EventReactorShutdown: {}

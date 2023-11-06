@@ -1,0 +1,12 @@
+[console_scripts]
+chaser_turtle = ros2_course.chaser_turtle:main
+draw_A = ros2_course.draw_A:main
+flower_turtle = ros2_course.flower_turtle:main
+fractal = ros2_course.fractal:main
+hello = ros2_course.hello:main
+hunter_turtle = ros2_course.hunter_turtle:main
+random_turtle = ros2_course.random_turtle:main
+turtle_spawner = ros2_course.turtle_spawner:main
+turtle_spin = ros2_course.turtle_spin:main
+turtlesim_controller = ros2_course.turtlesim_controller:main
+
